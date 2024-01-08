@@ -47,11 +47,13 @@
   "engines": {
     "node": ">=0.6.11"
   },
-  "dependencies": {},
   "devDependencies": {
+    "eslint": "^8.47.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.28.0",
     "jest": "^19.0.2",
     "jest-cli": "^19.0.2",
+    "jest-matchers": "^20.0.3",
     "sinon": "^2.1.0"
-  },
-  "optionalDependencies": {}
+  }
 }
