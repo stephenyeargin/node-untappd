@@ -1,6 +1,10 @@
 node-untappd
 -------
-NodeJS API to intergrate with [Untappd API](http://untappd.com/api/docs).
+
+> [!NOTE]
+> This is a maintained fork of [arei/node-untappd](https://github.com/arei/node-untappd), published as [`@stephenyeargin/node-untappd`](https://www.npmjs.com/package/@stephenyeargin/node-untappd). The Untappd API has been closed to new applications for some time, so this package exists primarily to keep dependencies current for those who already have API access.
+
+NodeJS API to integrate with [Untappd API](http://untappd.com/api/docs).
 
 [Untappd](http://untappd.com) is a social beer tracking application for most mobile devices and the greater internet at large. It supports a robust set of features for "checking into" beer as it is consumed including locations, ratings, comments, and social integration.
 
@@ -54,7 +58,7 @@ Creating the client:
 	var debug = false;
 	var untappd = new UntappdClient(debug);
 
-Set your credientials
+Set your credentials
 
 	var clientId = "[ your api key goes here ]"; // Replace this with your CLIENT ID
 	var clientSecret = "[ your client secret goes here ]"; // Replace this with your CLIENT SECRET
